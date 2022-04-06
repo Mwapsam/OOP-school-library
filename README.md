@@ -1,56 +1,51 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# OOP school library
 
-> Description the project.
+> This project consists of Ruby script for the school library app. I implemented encapsulation and inheritance with Ruby by creating classes to represent students and teachers in the school.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
+- Ruby
+- Bubocop
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+**To get a local copy up and running follow these simple example steps.**
 
 ### Prerequisites
+- Ruby should be installed on your machine
 
 ### Setup
-
+```
+git clone https://github.com/Mwapsam/OOP-school-library.git
+cd OOP-school-library
+```
 ### Install
+```
+bundle install
+```
 
-### Usage
+### Play with the code
+```
+irb
+```
 
-### Run tests
+### Run linters
+```
+rubocop -a
+```
 
-### Deployment
 
 
+## 👤Author
 
-## Authors
+- GitHub: [@mwapsam](https://github.com/Mwapsam)
+- Twitter: [@mwapesamuel4](https://twitter.com/mwapesamuel4)
+- LinkedIn: [mwapsam](https://www.linkedin.com/in/mwapsam/)
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -64,9 +59,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Many thanks to Microverse
 
 ## 📝 License
 
