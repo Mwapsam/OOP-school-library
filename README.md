@@ -42,6 +42,11 @@ irb
 rubocop -a
 ```
 
+### Run App
+```
+ruby app.rb
+```
+
 ## Screenshots
 
 > |Screenshot 1|Screenshots 2|
