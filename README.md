@@ -38,6 +38,11 @@ irb
 rubocop -a
 ```
 
+### Run the App
+```
+ruby app.rb
+```
+
 
 
 ## 👤Author
