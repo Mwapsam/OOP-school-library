@@ -1,8 +1,8 @@
 class Classroom
   attr_accessor :label, :students
 
-  def initialize(lebal)
-    @lebal = lebal
+  def initialize(label)
+    @label = label
     @student = []
   end
 
