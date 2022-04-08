@@ -1,5 +1,4 @@
 require './person'
-
 class Teacher < Person
   def initialize(specialization, age, name = 'Unknown')
     @specialization = specialization
