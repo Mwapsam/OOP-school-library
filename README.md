@@ -3,6 +3,10 @@
 # OOP school library
 
 > This project consists of Ruby script for the school library app. I implemented encapsulation and inheritance with Ruby by creating classes to represent students and teachers in the school.
+## Class Diagram
+> ![](./img/uml_class_diagram.png)
+
+
 
 
 ## Built With
@@ -36,6 +40,11 @@ irb
 ### Run linters
 ```
 rubocop -a
+```
+
+### Run App
+```
+ruby app.rb
 ```
 
 ## Screenshots
