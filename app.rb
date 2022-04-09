@@ -13,13 +13,23 @@ class Methods
   end
 
   def list_books
-    puts 'No books available' if @books.empty?
-    @books.each { |book| puts book }
+    if @books.empty?
+      puts 'No book added yet'
+      return
+    end
+    @books.map do |book|
+      puts "Title: \"#{book.title}\", Author: #{book.author}"
+    end
   end
 
   def list_people
-    puts 'No people available' if @people.empty?
-    @people.each { |person| puts person }
+    if @people.empty?
+      puts 'No person record created yet'
+      return
+    end
+    @people.map do |person|
+      puts "[#{person.class}] Name: #{person.name}, ID: #{person.id}, Age: #{person.age}"
+    end
   end
 
   def create_person
