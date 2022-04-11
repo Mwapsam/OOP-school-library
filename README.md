@@ -40,22 +40,10 @@ irb
 ### Run linters
 ```
 rubocop -a
-```
 
-### Run App
 ```
 ruby app.rb
 ```
-
-## Screenshots
-
-> |Screenshot 1|Screenshots 2|
-> |--------------|----------------|
-> |![](./img/app1.png)|![](./img/app2.png)|!
-> |Screenshot 3|Screenshots 4|
-> |--------------|----------------|
-> |![](./img/app3.png)|![](./img/app4.png)|!
-
 
 ## 👤Author
 
